@@ -11,11 +11,11 @@ Completed:
 - Open GEFS precipitation forecast files from Amazon S3
 - Read GRIB2 files using `xarray` and `cfgrib`
 - Create an example precipitation forecast map over the United States
+- Load multiple GEFS ensemble members
+- Compute ensemble probability of heavy precipitation
 
 Planned:
 
-- Load multiple GEFS ensemble members
-- Compute ensemble probability of heavy precipitation
 - Compare GEFS forecasts with observed precipitation datasets
 
 ## Repository Structure
@@ -25,8 +25,12 @@ gefs-heavy-precip-verification/
 ├── README.md
 ├── notebooks/
 │   └── 01_open_gefs_precipitation.ipynb
+│   └── 02_probability_of_heavy_precipitation.ipynb
 └── figures/
     └── gefs_precip_example_24h.png
+    └── gefs_precip_ensemble_mean_24h.png
+    └── gefs_probability_precip_10mm_24h.png
+    └── gefs_probability_precip_25mm_24.png
 ```
 
 ## AI Assistance Disclosure
