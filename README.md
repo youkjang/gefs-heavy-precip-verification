@@ -12,10 +12,11 @@ Completed:
 - Load multiple GEFS ensemble members
 - Compute ensemble probability of heavy precipitation
 - Compare GEFS forecasts with observed precipitation datasets (Brier score)
+- Repeat Brier Score calculation across several forecast dates
 
 Planned:
 
-- Repeat Brier Score calculation across several forecast dates
+- Evaluate the reliability of GEFS probabilistic heavy precipitation forecasts.
 
 ## Repository Structure
 
@@ -26,13 +27,16 @@ gefs-heavy-precip-verification/
 │   └── 01_open_gefs_precipitation.ipynb
 │   └── 02_probability_of_heavy_precipitation.ipynb
 │   └── 03_brier_score_verification.ipynb
+│   └── 04_multi_case_brier_score_workflow.ipynb
 └── figures/
     └── 1_gefs_precip_example_24h.png
     └── 2_gefs_precip_ensemble_mean_24h.png
     └── 3_gefs_probability_precip_10mm_24h.png
     └── 4_gefs_probability_precip_25mm_24h.png
     └── 5_obs_heavy_precip_25mm.png
-    └── 4_gefs_brier_score_heavy_precip_25mm_24h.png
+    └── 6_gefs_brier_score_heavy_precip_25mm_24h.png
+    └── 7_multi_case_brier_score_25mm.png
 
-## AI Assistance Disclosure
-Parts of this project were developed with AI assistance for code organization, README drafting, and workflow refinement. All scientific choices, code execution, debugging, and final review were completed by the author.
+## Note on AI-Assisted Work
+
+AI tools were used to support code drafting, debugging, code understanding, and discussion of scientific methods. I reviewed, modified, and tested the code myself.
