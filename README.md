@@ -2,9 +2,7 @@
 
 This repository is a developing project focused on using NOAA GEFS ensemble forecast data for heavy precipitation analysis and verification.
 
-## Current Status
-
-Completed:
+## Workflow
 
 - Open GEFS precipitation forecast files from Amazon S3
 - Read GRIB2 files using `xarray` and `cfgrib`
@@ -14,9 +12,6 @@ Completed:
 - Compare GEFS forecasts with observed precipitation datasets (Brier score)
 - Repeat Brier Score calculation across several forecast dates
 
-Planned:
-
-- Evaluate the reliability of GEFS probabilistic heavy precipitation forecasts.
 
 ## Repository Structure
 
