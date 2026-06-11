@@ -31,7 +31,7 @@ gefs-heavy-precip-verification/
     └── 5_obs_heavy_precip_25mm.png
     └── 6_gefs_brier_score_heavy_precip_25mm_24h.png
     └── 7_multi_case_brier_score_25mm.png
-
+```
 ## Note on AI-Assisted Work
 
 AI tools were used to support code drafting, debugging, code understanding, and discussion of scientific methods. I reviewed, modified, and tested the code myself.
